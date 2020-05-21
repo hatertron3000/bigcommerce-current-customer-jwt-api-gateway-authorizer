@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "zip -r archive`date +%s`.zip ."
+    "build": "npm install;zip -r archive`date +%s`.zip ."
   },
   "author": "Patrick Puente",
   "license": "ISC"
