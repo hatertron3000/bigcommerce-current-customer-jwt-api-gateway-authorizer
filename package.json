@@ -1,0 +1,16 @@
+{
+  "name": "bigcommerce-current-customer-jwt-api-gateway-authorizer",
+  "version": "1.0.0",
+  "description": "A custom Lambda authorizer for use with the BigCommerce Current Customer API",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zip -r archive`date +%s`.zip ."
+  },
+  "author": "Patrick Puente",
+  "license": "ISC"
+}
