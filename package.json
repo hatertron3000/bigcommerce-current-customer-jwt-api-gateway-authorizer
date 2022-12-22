@@ -4,7 +4,7 @@
   "description": "A custom Lambda authorizer for use with the BigCommerce Current Customer API",
   "main": "index.js",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {},
   "scripts": {
